@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>REGISTRATION</h1>
+    <form action="">
+      <!-- FIRSTNAME -->
+      <label for="firstname">First name:</label>
+      <input
+        type="text"
+        id="firstname"
+        name="firstname"
+        placeholder="Enter you firstname here"
+      />
+      <br />
+      <!-- LASTNAME -->
+      <label for="lastname">Last name:</label>
+      <input
+        type="text"
+        id="lastname"
+        name="lastname"
+        placeholder="Enter your lastname here"
+      />
+      <br />
+      <br />
+      <!-- USER_BIO -->
+      <label for="Bio">Bio:</label>
+      <br />
+      <textarea
+        id="user_bio"
+        name="user_bio"
+        row="8"
+        cols="50"
+        placeholder="Describe yourself here"
+      ></textarea>
+      <br />
+      <br />
+      <!-- AGE -->
+      <label for="age">Age:</label>
+      <input
+        type="number"
+        id="age"
+        name="age"
+        placeholder="Enter your age here"
+      />
+      <!-- USER_EMAIL -->
+      <br />
+      <label for="email">email:</label>
+      <input
+        type="text"
+        id="email"
+        name="email"
+        placeholder="Enter your email here"
+      />
+      <br />
+      <!-- DATE OF BIRTH -->
+      <label for="date_of_birth">Date of Birth:</label>
+      <input type="date" id="date_of_birth" name="date_of_birth" />
+      <!-- COUNTRY -->
+      <br /><label for="country">Country</label>
+      <select id="country" name="country">
+        <option value="None">None</option>
+        <option value="Thailand">Thailand</option>
+        <option value="Not Thailand">Not Thailand</option>
+      </select>
+      <!-- GENDER -->
+      <br /><label for="gender">Gender:</label>
+      <input type="radio" id="male" name="gender" value="male" />
+      <label for="male">male</label>
+      <input type="radio" id="female" name="gender" value="female" />
+      <label for="female">female</label>
+      <input type="radio" id="other" name="gender" value="other" />
+      <label for="other">other</label>
+      <!-- INTEREST -->
+      <br /><br /><label for="Interest">Interest:</label>
+      <input type="checkbox" name="interest" id="Sports" value="Sports" />
+      <label for="Sports">Sports</label>
+      <input type="checkbox" name="interest" id="Gamer" value="Gamer" />
+      <label for="Gamer">Gamer</label>
+      <input type="checkbox" name="interest" id="Eating" value="Eating" />
+      <label for="Eating">Eating</label>
+      <!-- SUBMIT -->
+      <br /><br />
+      <input type="submit" value="submit" width="50" height="50000" />
+    </form>
+  </body>
+</html>
