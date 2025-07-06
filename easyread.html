@@ -4,62 +4,92 @@
     <title>easyread</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        background-color: black;
+        color: white;
+        margin: 0;
+        min-height: 900px;
+        min-width: 720px;
+      }
+      .navigation_bar {
+        background-color: brown;
+        position: sticky;
+        display: block;
+        top: 0px;
+        min-width: 700px;
+        height: 70px;
+        padding: 20px;
+      }
+      .normal_textbox {
+        background-color: rgba(124, 116, 114, 0.3);
+        display: inline-block;
+        text-align: center;
+        padding: 10px;
+        margin-inline: 20px;
+      }
+      /* NAVIGATION BAR */
+      #nav-left {
+        height: inherit;
+        display: inline-block;
+      }
+      #top-wallpaper{
+        width:100%;
+        margin-top: 0px;
+      }
+      #top-wallpaper img{
+        text-align: center;
+        display:block;
+        margin: auto;
+        width:100%;
+        max-height: 50%;
+      }
+    </style>
   </head>
-  <body
-    style="
-      background-color: #65532f;
-      font-family: 'Times New Roman', Times, serif;
-      font-size: 24px;
-      margin: 0;
-    "
-  ></body>
-  <div style="margin: auto; text-align: center; width: 600px">
-    <h1 style="font-size: 2.1em">MADE IN ABYSS</h1>
+  <body>
+    <div class="navigation_bar">
+      <div id="nav-left">
+        <img
+          src="https://m.media-amazon.com/images/M/MV5BZjM4ODA5YTktNjliMC00NzI5LTk3ZTctZWYyYWEyNTJhMmQzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+          style="
+            height: 100%;
+            border-radius: 40px;
+            display: inline-block;
+            vertical-align: middle;
+          "
+        />
+        <div
+          id="made in abyss wiki"
+          class="normal_textbox"
+          style="font-size: 2em; width: 275px; vertical-align: middle"
+        >
+          Made in Abyss Wiki
+        </div>
+      </div>
+      <div
+        id="nav-right"
+        style="
+          height: inherit;
+          display: inline-block;
+          position: absolute;
+          right: 20px;
+          top: 35%;
+        "
+      >
+        <div
+          id="nav-right-link"
+          class="normal_textbox"
+          style="display: inline-block"
+        >
+          <a href="https://www.youtube.com/">Home</a> |
+          <a href="https://www.youtube.com/">Home</a> |
+          <a href="https://www.youtube.com/">Home</a>
+        </div>
+      </div>
+    </div>
   </div>
-  <div style="width: 700px; margin: auto">
-    <img
-      src="https://www.game-ded.com/wordpress/wp-content/uploads/2025/05/MIA1.jpg"
-      style="width: 100%; border-radius: 30px"
-    />
+  <div id="top-wallpaper">
+    <img src="image/6th_Layer_anime.webp">
   </div>
-</br>
-</br>
-  <div
-    style="
-      margin: auto;
-      font-size: 1.1em;
-      background-color: #312509;
-      color: aliceblue;
-      padding: 30px;
-      border-radius: 20px;
-      max-width: 1000px;
-      min-width: 500px;
-    "
-  >
-    <p>
-      &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<b>Made in Abyss</b>
-      (Japanese: メイドインアビス, Hepburn: Meido in Abisu) is a
-      <strong>Japanese manga series</strong> written and illustrated by Akihito
-      Tsukushi. It has been serialized online in Takeshobo's digital publication
-      Web Comic Gamma since October 2012, and has been collected in 13 tankōbon
-      volumes. The story follows <mark>an orphaned girl named Riko</mark>, who
-      finds and befriends a part-robot boy named Reg, and descends with him into
-      the titular "Abyss" that leads deep into the Earth, in hopes of exploring
-      it and finding her mother. An anime television series adaptation produced
-      by Kinema Citrus, aired from July to September 2017. A sequel film,
-      subtitled Dawn of the Deep Soul, premiered in Japan in January 2020. A
-      second season, subtitled The Golden City of the Scorching Sun, aired from
-      July to September 2022. A sequel to the second season has been announced.
-      A Western live-action film adaptation began development in 2021, with
-      Kevin McMullin hired to write and direct. An action role-playing game
-      developed by Chime Corporation and published by Spike Chunsoft was
-      released in September 2022. By February 2020, the manga had over three
-      million copies in circulation. In 2023, it won the 52nd Japan Cartoonists
-      Association Award.
-    </p>
-  </div>
-</br>
-</br>
-</br>
-</br>
+  </body>
 </html>
